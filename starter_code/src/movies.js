@@ -63,13 +63,9 @@ function dramaMoviesRate(dramaArray) {
 // Iteration 6: Time Format - Turn duration of the movies from hours to minutes
 
 function turnHoursToMinutes(array) {
-
   let newDumbArray = [...array];
-
   let finalArrayThankGod = newDumbArray.map( (newMovie) => {
-
       let duration = newMovie.duration
-
       let min = 0;
       let hour = 0;
       let final = 0;
@@ -101,11 +97,7 @@ function turnHoursToMinutes(array) {
       }
   }
   )
-
   return finalArrayThankGod;
-
-
-
 }
 // BONUS Iteration: Best yearly rate average - Best yearly rate average
 function bestYearAvg(lastArray) {
